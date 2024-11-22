@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body style="background-color: #eee; color: #eee;">
+    <form>
+        <fieldset style="background-color: rgb(183, 50, 50);">
+            <legend style="background-color: rgb(63, 98, 175);">Personal Data</legend>
+            <br>
+            <fieldset style="background-color: olive;">
+                <legend style="background-color: rgb(56, 142, 203)">
+                    <br>
+                    Your Name
+                    <br>
+                    <br>
+                    <br>
+                </legend>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="firstName">First Name</label>
+                            </td>
+                            <td>
+                                <span>:</span> <input required type="text" name="firstName" id="firstName"
+                                    placeholder="ex.Zeyad">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lastName">Last Name</label>
+                            </td>
+                            <td>
+                                <span>:</span> <input required type="text" name="lastName" id="lastName"
+                                    placeholder="ex.Ismail">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="number">Phone</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input type="tel" name="number" id="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input type="password" name="password" id="password">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="rePassword">Re-password</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input type="password" name="rePassword" id="rePassword">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="male">Male</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input value="male" type="radio" name="gender" id="male">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="feMale">Female</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input value="female" type="radio" name="gender" id="female">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="student">Student</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input value="student" type="radio" name="education" id="student">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="graduted">Graduted</label>
+                        </td>
+                        <td>
+                            <span>:</span> <input value="graduted" type="radio" name="education" id="graduted">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <td>
+                        <label for="postgraduate">Post-Graduate</label>
+                    </td>
+                    <td>
+                        <span>:</span> <input value="postgraduate" type="radio" name="education" id="postgraduate">
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <select name="country" id="country">
+                <option value="" selected hidden disabled>Country</option>
+                <optgroup label="Europe">
+                    <option value="EN">England</option>
+                    <option value="IT">Italy</option>
+                    <option value="FR">France</option>
+                </optgroup>
+                <optgroup label="Africa">
+                    <option value="EG">Egypt</option>
+                    <option value="MR">Moroco</option>
+                    <option value="AL">Algeria</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <button type="submit"
+                style="background-color: pink; width: 10rem; height: 2rem; font-size: large;">SUBMIT</button>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>
